@@ -1,0 +1,392 @@
+@font-face {
+  font-family: gothic;
+  src: url(../fonts/DidactGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: work;
+  src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: fjalla;
+  src: url(../fonts/FjallaOne-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* HEADER */
+
+header {
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
+}
+
+header p {
+  font-family: work;
+  margin: 20px auto 60px auto;
+  font-size: 2rem;
+}
+
+header h1 {
+  font-family: gothic;
+  margin: 0 auto 60px auto;
+  font-size: 10rem;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+img {
+  margin: 0 auto 120px auto;
+  width: 100%;
+}
+header h2 {
+  font-family: work;
+  font-weight: 400;
+  font-size: 16rem;
+  margin: 0 auto 150px auto;
+}
+
+/* SECTION */
+/* ! ORBIS */
+.orbis {
+  background-image: url(../img/portfolio2.jpg);
+  min-height: 826px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.orbis p:first-of-type {
+  color: #9e9e9e;
+  font-family: work;
+  font-size: 2rem;
+  margin: 0 auto 20px 17vw;
+  padding: 150px 0 0 0;
+}
+
+.orbis h3 {
+  color: #ffffff;
+  font-family: gothic;
+  font-size: 11rem;
+  font-weight: 400;
+  margin: 0 auto 40px 17vw;
+}
+
+.orbis p:last-of-type {
+  color: #9e9e9e;
+  font-family: work;
+  font-size: 2rem;
+  margin: 0 auto 80px 17vw;
+}
+
+.orbis button {
+  border: 2px solid #9e9e9e;
+  color: #ffffff;
+  background-color: transparent;
+  font-family: fjalla;
+  font-size: 1.6rem;
+  padding: 15px 25px;
+  margin: 0 auto 40px 17vw;
+}
+
+.orbis h4 {
+  font-family: fjalla;
+  font-size: 16.5rem;
+  color: rgba(0, 0, 0, 0.2);
+  stroke: 1px solid black;
+  margin: 0 auto 0 83vw;
+}
+
+/* -hover */
+.orbis div button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.orbis div button:hover + h4 {
+  color: #9e9e9e;
+}
+
+/* ! ROLLR */
+.rollr {
+  background-image: url(../img/portfolio3.jpg);
+  min-height: 1056px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rollr p:first-of-type {
+  color: #666666;
+  font-family: work;
+  font-size: 2rem;
+  margin: 0 auto 20px 17vw;
+  padding: 250px 0 0 0;
+}
+
+.rollr h3 {
+  color: black;
+  font-family: gothic;
+  font-size: 11rem;
+  font-weight: 400;
+  margin: 0 auto 40px 17vw;
+}
+
+.rollr p:last-of-type {
+  color: #666666;
+  font-family: work;
+  font-size: 2rem;
+  margin: 0 auto 80px 17vw;
+}
+
+.rollr button {
+  border: 2px solid #000000;
+  color: #000000;
+  background-color: transparent;
+  font-family: fjalla;
+  font-size: 1.6rem;
+  padding: 15px 25px;
+  margin: 0 auto 40px 17vw;
+}
+
+.rollr h4 {
+  font-family: fjalla;
+  font-size: 16.5rem;
+  color: #666666;
+  stroke: 1px solid black;
+  margin: 0 auto 230px 83vw;
+}
+
+/* -hover */
+.rollr div button:hover {
+  background-color: black;
+  color: white;
+}
+
+.rollr div button:hover + h4 {
+  color: black;
+}
+
+/* ! GALITO */
+.galito {
+  background-image: url(../img/portfolio4.jpg);
+  min-height: 826px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.galito p:first-of-type {
+  color: #9e9e9e;
+  font-family: work;
+  font-size: 2rem;
+  margin: 0 auto 20px 17vw;
+  padding: 150px 0 0 0;
+}
+
+.galito h3 {
+  color: white;
+  font-family: gothic;
+  font-size: 11rem;
+  font-weight: 400;
+  margin: 0 auto 40px 17vw;
+}
+
+.galito p:last-of-type {
+  color: #9e9e9e;
+  font-family: work;
+  font-size: 2rem;
+  margin: 0 auto 80px 17vw;
+}
+
+.galito button {
+  border: 2px solid #9e9e9e;
+  color: white;
+  background-color: transparent;
+  font-family: fjalla;
+  font-size: 1.6rem;
+  padding: 15px 25px;
+  margin: 0 auto 40px 17vw;
+}
+
+.galito h4 {
+  font-family: fjalla;
+  font-size: 16.5rem;
+  color: rgba(102, 102, 102, 0.2);
+  stroke: 1px solid black;
+  margin: 0 auto 230px 83vw;
+}
+
+/* -hover */
+.galito div button:hover {
+  background-color: white;
+  color: black;
+}
+
+.galito div button:hover + h4 {
+  color: white;
+  stroke: 1px solid black;
+}
+
+/* !TRETTO */
+.tretto {
+  background-image: url(../img/portfolio5.jpg);
+  min-height: 1056px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tretto p:first-of-type {
+  color: #666666;
+  font-family: work;
+  font-size: 2rem;
+  margin: 0 auto 20px 17vw;
+  padding: 250px 0 0 0;
+}
+
+.tretto h3 {
+  color: black;
+  font-family: gothic;
+  font-size: 11rem;
+  font-weight: 400;
+  margin: 0 auto 40px 17vw;
+}
+
+.tretto p:last-of-type {
+  color: #666666;
+  font-family: work;
+  font-size: 2rem;
+  margin: 0 auto 80px 17vw;
+}
+
+.tretto button {
+  border: 2px solid #000000;
+  color: #000000;
+  background-color: transparent;
+  font-family: fjalla;
+  font-size: 1.6rem;
+  padding: 15px 25px;
+  margin: 0 auto 40px 17vw;
+}
+
+.tretto h4 {
+  font-family: fjalla;
+  font-size: 16.5rem;
+  color: #666666;
+  stroke: 1px solid black;
+  margin: 0 auto 230px 83vw;
+}
+
+/* -hover */
+.tretto div button:hover {
+  background-color: black;
+  color: white;
+}
+
+.tretto div button:hover + h4 {
+  color: black;
+  stroke: 1px solid black;
+}
+
+/* !WHAT MORE? */
+article {
+  background-color: #000000;
+  min-height: 931px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article h2 {
+  font-family: work;
+  font-size: 18rem;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  letter-spacing: -10px;
+  margin: 0 auto 150px auto;
+  padding: 130px 0 0 0;
+}
+
+article p {
+  font-family: work;
+  font-size: 2rem;
+  color: #666666;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 1px;
+  margin: 0 auto 60px 50vw;
+}
+
+article a {
+  text-decoration: none;
+  color: white;
+  font-family: work;
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: -6px;
+  margin: 0 auto 0 50vw;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: white;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 230px 0 0 0;
+}
+
+footer a {
+  font-family: gothic;
+  font-size: 16rem;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto 150px auto;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  display: block;
+  margin: 0 auto 130px auto;
+  text-align: center;
+  width: 3%;
+  height: 3%;
+  animation-name: heart;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heart {
+  0% {
+    width: 3%;
+  }
+  50% {
+    width: 5%;
+  }
+  100% {
+    width: 3%;
+  }
+}
